@@ -37,12 +37,12 @@
            border-radius: 12px;
        }
        
-       .fa-search {
+       .fa-magnifying-glass {
            margin-left: 5px;
            cursor: pointer;
        }
        
-       .fa-search:hover {
+       .fa-magnifying-glass:hover {
            cursor: pointer;
            color: var(--theam-color-orange);
            transition: color 0.5s;
