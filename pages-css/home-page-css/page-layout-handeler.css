@@ -63,7 +63,7 @@
 
 .footer {
     background: var(--color-footer-background);
-    color: var(--color-white);
+    color: var(--color-dark);
     grid-area: footer;
     text-align: center;
     height: fit-content;
