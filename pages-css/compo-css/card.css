@@ -1,10 +1,10 @@
 :root {
-    --color-orange: orange;
+    --color-orange: #ffa500;
     --color-dark-orange: #ff4800;
-    --color-white: white;
-    --color-light-gray: lightgray;
+    --color-white: #ffffff;
+    --color-light-gray: #ebeae8;
     --color-light-black: #7a7a7a;
-    --color-dark: black;
+    --color-dark: #000000;
 }
 
 
@@ -15,7 +15,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position: relative;
-    width: 200px;
+    width: 12.5rem;
     height: auto;
     padding-bottom: 2px;
     gap: 8px;
@@ -28,7 +28,7 @@
 }
 
 .vertical-card-img {
-    width: 200px;
+    width: 12.5rem;
     height: auto;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .buy-btn {
-    width: 100px;
+    width: 6.25rem;
     padding: 6px;
     background-color: var(--color-dark);
     color: var(--color-orange);
@@ -61,7 +61,7 @@
 
 .buy-btn:hover {
     background-color: var(--color-orange);
-    color: black;
+    color: var(--color-dark);
     transition: background-color 0.5s;
 }
 
