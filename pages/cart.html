@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/pages-css/cart-css/page-layout.css">
+
+</head>
+
+<body>
+    <div class="page-layout-container">
+        <!-- header -->
+        <div class="header">
+            <div class="nav-bar">
+                <div class="brand-logo">
+                    <a href="/"><img src="/assets/logo/logo.png" alt="brand-logo"></a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="/">Home</a> </li>
+                        <li> <a href="./pages/products/tshirt.html">Products</a> </li>
+                    </ul>
+                </div>
+                <div class="nav-bar-search-box">
+                    <input class="search-box" type="text" type="search" placeholder="search for products" spellcheck="true"><i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="nav-bar-icons">
+                    <ul class="nav-bar-icons-list">
+                        <li>
+                            <a href="/pages/wishlist.html"> <i class="fa fa-heart" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="/pages/cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </li>
+                        <li><i class="fa fa-user-circle" aria-hidden="true"></i></li>
+                        <li><a href="/">Logout</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end of Header -->
+
+        <!-- section-1- heading -->
+        <div class="section-1">
+            <h3>My shopping cart </h3>
+            <p class="spacer"></p>
+        </div>
+        <!-- end of section-1 -->
+
+
+        <!-- section-2- products in cart -->
+        <div class="section-2">
+            <!-- product-1 in cart -->
+            <div class="vertical-card-with-shadow">
+                <img class="vertical-card-img" src="/assets/images/tshirt/tee-1.jpg" alt="card image" />
+                <div>
+                    <div class="text-details">
+                        <h3 class="card-title">Solid round neck tshirt</h3>
+
+                        <h3 class="card-content">
+                            Price: ₹1199
+                        </h3>
+                        <div class="size-n-qty">
+                            Size:
+                            <select name="select-tshirt-size" id="select-tshirt-size">
+                                <option value="S">S</option>
+                                <option value="S">M</option>
+                                <option value="S">L</option>
+                                <option value="S">XL</option>
+                                <option value="S">XXL</option>
+                            </select>
+
+                            <label for="qty">Qty.</label>
+                            <input type="number" id="qty" name="qty" value="1" min="1" max="50">
+                        </div>
+
+                    </div>
+                    <div class="cart-card-btn">
+                        <button class="btn-primary" href="#url">Move to wishlist</button>
+                        <button class="btn-secondary" href="#url">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end of product-1 in cart -->
+
+            <!-- product-2 in cart -->
+            <div class="vertical-card-with-shadow">
+                <img class="vertical-card-img" src="/assets/images/pants/pnt-1.jpg" alt="card image" />
+                <div>
+                    <div class="text-details">
+                        <h3 class="card-title">Men's premium pant</h3>
+
+                        <h3 class="card-content">
+                            Price: ₹1199
+                        </h3>
+                        <div class="size-n-qty">
+                            Size:
+                            <select name="select-tshirt-size" id="select-tshirt-size">
+                                <option value="S">S</option>
+                                <option value="S">M</option>
+                                <option value="S">L</option>
+                                <option value="S">XL</option>
+                                <option value="S">XXL</option>
+                            </select>
+
+                            <label for="qty">Qty.</label>
+                            <input type="number" id="qty" name="qty" value="1" min="1" max="50">
+                        </div>
+
+                    </div>
+                    <div class="cart-card-btn">
+                        <button class="btn-primary" href="#url">Move to wishlist</button>
+                        <button class="btn-secondary" href="#url">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end of product-2 in cart -->
+
+            <!-- product-3 in cart -->
+            <div class="vertical-card-with-shadow">
+                <img class="vertical-card-img" src="/assets/images/goggles/ggl-1.jpg" alt="card image" />
+                <div>
+                    <div class="text-details">
+                        <h3 class="card-title">Men's premium goggles</h3>
+
+                        <h3 class="card-content">
+                            Price: ₹1199
+                        </h3>
+                        <div class="size-n-qty">
+                            Size:
+                            <select name="select-tshirt-size" id="select-tshirt-size">
+                                <option value="S">S</option>
+                                <option value="S">M</option>
+                                <option value="S">L</option>
+                                <option value="S">XL</option>
+                                <option value="S">XXL</option>
+                            </select>
+
+                            <label for="qty">Qty.</label>
+                            <input type="number" id="qty" name="qty" value="1" min="1" max="50">
+                        </div>
+
+                    </div>
+                    <div class="cart-card-btn">
+                        <button class="btn-primary" href="#url">Move to wishlist</button>
+                        <button class="btn-secondary" href="#url">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end of product-3 in cart -->
+
+
+            <!-- product-4 in cart -->
+            <div class="vertical-card-with-shadow">
+                <img class="vertical-card-img" src="/assets/images/shoes/sho-1.jpg" alt="card image" />
+                <div>
+                    <div class="text-details">
+                        <h3 class="card-title">Men's premium shoes</h3>
+
+                        <h3 class="card-content">
+                            Price: ₹1199
+                        </h3>
+                        <div class="size-n-qty">
+                            Size:
+                            <select name="select-tshirt-size" id="select-tshirt-size">
+                                <option value="S">S</option>
+                                <option value="S">M</option>
+                                <option value="S">L</option>
+                                <option value="S">XL</option>
+                                <option value="S">XXL</option>
+                            </select>
+
+                            <label for="qty">Qty.</label>
+                            <input type="number" id="qty" name="qty" value="1" min="1" max="50">
+                        </div>
+
+                    </div>
+                    <div class="cart-card-btn">
+                        <button class="btn-primary" href="#url">Move to wishlist</button>
+                        <button class="btn-secondary" href="#url">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end of product-4 in cart -->
+
+            <!-- product-5 in cart -->
+            <div class="vertical-card-with-shadow">
+                <img class="vertical-card-img" src="/assets/images/tshirt/tee-5.jpg" alt="card image" />
+                <div>
+                    <div class="text-details">
+                        <h3 class="card-title">Solid round neck tshirt</h3>
+
+                        <h3 class="card-content">
+                            Price: ₹1199
+                        </h3>
+                        <div class="size-n-qty">
+                            Size:
+                            <select name="select-tshirt-size" id="select-tshirt-size">
+                                <option value="S">S</option>
+                                <option value="S">M</option>
+                                <option value="S">L</option>
+                                <option value="S">XL</option>
+                                <option value="S">XXL</option>
+                            </select>
+
+                            <label for="qty">Qty.</label>
+                            <input type="number" id="qty" name="qty" value="1" min="1" max="50">
+                        </div>
+
+                    </div>
+                    <div class="cart-card-btn">
+                        <button class="btn-primary" href="#url">Move to wishlist</button>
+                        <button class="btn-secondary" href="#url">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end of product-5 in cart -->
+
+
+            <!-- product-6 in cart -->
+            <div class="vertical-card-with-shadow">
+                <img class="vertical-card-img" src="/assets/images/tshirt/tee-6.jpg" alt="card image" />
+                <div>
+                    <div class="text-details">
+                        <h3 class="card-title">Solid round neck tshirt</h3>
+
+                        <h3 class="card-content">
+                            Price: ₹1199
+                        </h3>
+                        <div class="size-n-qty">
+                            Size:
+                            <select name="select-tshirt-size" id="select-tshirt-size">
+                                <option value="S">S</option>
+                                <option value="S">M</option>
+                                <option value="S">L</option>
+                                <option value="S">XL</option>
+                                <option value="S">XXL</option>
+                            </select>
+
+                            <label for="qty">Qty.</label>
+                            <input type="number" id="qty" name="qty" value="1" min="1" max="50">
+                        </div>
+
+                    </div>
+                    <div class="cart-card-btn">
+                        <button class="btn-primary" href="#url">Move to wishlist</button>
+                        <button class="btn-secondary" href="#url">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end of product-6 in cart -->
+
+        </div>
+        <!-- end of section-2 -->
+
+
+
+        <!-- section-3- right side checked out details -->
+        <div class="section-3">
+            <div class="r-side-cart-details">
+                <p>Price details <span>(6) </span>items</p>
+                <hr>
+                <p class="spacer"></p>
+                <p><span>Total MRP:</span> <span class="txt-float-right">₹7194</span></p>
+                <p>Discount on MRP: <span class="txt-float-right txt-color-green">-₹2500</span></p>
+                <p>Coupon discount: <span class="txt-float-right txt-color-brand"><a href="#url" class="coupon">Apply coupon</a>
+                    </span></p>
+                <p>Convinience fee: <span class="txt-float-right txt-color-green">Free</span></p>
+                <p class="spacer"></p>
+                <hr>
+                <h4 class="txt-bold">Total amount:
+                    <spanc class="txt-float-right">₹4694</span>
+                </h4>
+                <hr>
+                <button class="btn-place-order">Place order</button>
+            </div>
+        </div>
+        <!-- end of section-3 -->
+
+
+
+
+        <div class="footer">
+            <p>© 2022 | B-kart</p>
+            <p>Made with <span class="odd-color-text"><i class="fas fa-code"></i></span> by Sumit Kr Singh
+            </p>
+            <ul class="nav-icon-center">
+                <li class-items-text>
+                    <a href="https://www.linkedin.com/in/sumit-kr-singh-a94b56228/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class-items-text>
+                    <a href="https://twitter.com/sumitsi79994403"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class-items-text>
+                    <a href="https://github.com/sumitk-singh"><i class="fa-brands fa-github"></i></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
