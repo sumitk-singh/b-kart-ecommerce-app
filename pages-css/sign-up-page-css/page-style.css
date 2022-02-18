@@ -32,15 +32,16 @@
 
 .btn-sign-up {
     padding: 5px;
-    background-color: transparent;
-    color: var(--color-light-gray);
+    background-color: var(--color-dark-orange);
+    color: var(--color-dark);
     cursor: pointer;
+    font-size: large;
 }
 
 .btn-sign-up:hover {
-    background-color: var(--color-dark-orange);
+    background-color: var(--color-dark);
     transition: background-color 0.5s;
-    color: var(--color-black);
+    color: var(--color-light-gray);
 }
 
 .txt-highlight {

@@ -33,15 +33,16 @@
 
 .btn-login {
     padding: 5px;
-    background-color: transparent;
-    color: var(--color-light-gray);
+    background-color: var(--color-dark-orange);
+    color: var(--color-dark);
     cursor: pointer;
+    font-size: large;
 }
 
 .btn-login:hover {
-    background-color: var(--color-dark-orange);
+    background-color: var(--color-dark);
     transition: background-color 0.5s;
-    color: var(--color-dark);
+    color: var(--color-light-gray);
 }
 
 .txt-highlight {
@@ -60,7 +61,13 @@
 }
 
 .txt-float-right {
+    color: var(--color-light-orange);
     float: right;
+}
+
+.txt-float-right:hover {
+    color: var(--color-dark-orange);
+    transition: color 0.5s;
 }
 
 h2,
