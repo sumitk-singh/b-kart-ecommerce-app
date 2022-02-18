@@ -1,5 +1,6 @@
-@import url(/pages-css/compo-css/navbar.css);
-@import url(/pages-css/home-page-css/home-page-style.css);
+@import url("/pages-css/compo-css/navbar.css");
+@import url("/pages-css/home-page-css/home-page-style.css");
+@import url("https://fonts.googleapis.com/css2?family=Orienta&family=Quicksand&display=swap");
 :root {
     --color-footer-background: #cecece;
     --color-red: #fc0101;
@@ -10,6 +11,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Orienta', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
