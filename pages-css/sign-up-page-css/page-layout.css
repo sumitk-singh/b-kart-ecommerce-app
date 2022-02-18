@@ -1,8 +1,8 @@
 @import url("/pages-css/compo-css/navbar.css");
-@import url("/pages-css/home-page-css/home-page-style.css");
+@import url("/pages-css/sign-up-page-css/page-style.css");
 @import url("https://fonts.googleapis.com/css2?family=Orienta&family=Quicksand&display=swap");
 :root {
-    --color-footer-background: #cecece;
+    --color-footer-background: #c7c7c7;
     --color-red: #fc0101;
     --color-white: #ffffff;
     --color-dark: #050505;
@@ -16,15 +16,15 @@
 }
 
 
-/* component page container */
+/* page layout */
 
 .page-layout-container {
     display: grid;
     gap: 0.313rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     column-gap: 0.313rem;
     row-gap: 0.313rem;
-    grid-template-areas: "header header header " "section-1 section-1 section-1 " "section-2 section-2 section-2 " "section-3 section-3 section-3 " "footer footer footer ";
+    grid-template-areas: "header header header " "section-1 section-1 section-1 " "footer footer footer ";
     padding: 0.313rem;
     padding-left: 0.938rem;
     padding-right: 0.938rem;
@@ -47,18 +47,16 @@
     padding-right: 1.563rem;
 }
 
-.section-2 {
-    background: var(--color-white);
-    grid-area: section-2;
-    padding-left: 1.563rem;
-    padding-right: 1.563rem;
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    padding-left: 1.3rem;
+    line-height: 1.5rem;
 }
 
-.section-3 {
-    background: var(--color-white);
-    grid-area: section-3;
-    padding-left: 1.563rem;
-    padding-right: 1.563rem;
+.spacer {
+    padding: 1rem;
 }
 
 .footer {
@@ -76,7 +74,7 @@
 
 ul li {
     display: inline;
-    padding: 0.938rem;
+    padding: 15px;
     list-style-type: none;
     color: var(--color-dark);
 }
@@ -101,15 +99,14 @@ a {
 /* section-1 */
 
 .home-page-content-1>p {
-    font-size: 0.938rem;
+    font-size: 15px;
     padding-top: 10px;
     padding-bottom: 1.875rem;
 }
 
 .section-1 {
     display: flex;
-    height: fit-content;
-    padding-top: 1rem;
+    padding-top: 1.875rem;
     justify-content: space-between;
 }
 
@@ -121,13 +118,8 @@ a {
 
 .section-2 {
     display: flex;
-    margin-top: 1.5rem;
+    padding-top: 3.125rem;
     justify-content: space-between;
-}
-
-.home-page-content-2 {
-    padding-bottom: 5px;
-    height: auto;
 }
 
 .footer {
