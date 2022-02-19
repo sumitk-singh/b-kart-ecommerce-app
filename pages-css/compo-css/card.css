@@ -5,6 +5,7 @@
     --color-light-gray: #ebeae8;
     --color-light-black: #7a7a7a;
     --color-dark: #000000;
+    --color-green: #00a62c;
 }
 
 
@@ -88,4 +89,13 @@
 
 #mrp {
     text-decoration: line-through var(--color-dark-orange);
+}
+
+.sale-price {
+    color: var(--color-green);
+    font-weight: bolder;
+}
+
+.review {
+    cursor: pointer;
 }

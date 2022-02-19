@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/pages-css/products-page-css/layout-handeler.css">
+
+</head>
+
+<body>
+    <div class="page-layout-container">
+        <!-- header -->
+        <div class="header">
+            <div class="nav-bar">
+                <div class="brand-logo">
+                    <a href="/"><img src="/assets/logo/logo.png" alt="brand-logo"></a>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="/">Home</a> </li>
+                        <li> <a href="/pages/products/tshirt.html">Products</a> </li>
+                    </ul>
+                </div>
+                <div class="nav-bar-search-box">
+                    <input class="search-box" type="text" type="search" placeholder="search for products" spellcheck="true"><i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="nav-bar-icons">
+                    <ul class="nav-bar-icons-list">
+                        <li><a href="/pages/authentication/login.html">Login</a> </li>
+                        <li>
+                            <a href="/pages/wishlist.html"> <i class="fa fa-heart" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="/pages/cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end of Header -->
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <p class="spacer"></p>
+            <h3 class="sidebar-h2">Filters <span class="filter-clear">Clear</span></h3>
+
+
+
+            <!-- Category -->
+            <h4>Category</h4>
+            <hr>
+            <div class="filter-category">
+                <div>
+                    <input type="checkbox" id="tshirt" name="tshirt">
+                    <label for="tshirt">T-shirt</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="shtket" name="shtket">
+                    <label for="shtket">shtket</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="shirt" name="shirt">
+                    <label for="shirt">Shirt</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="pant" name="pant">
+                    <label for="pant">Pant</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="shoes" name="shoes" checked>
+                    <label for="shoes">Shoes</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="goggles" name="goggles">
+                    <label for="goggles"> Goggles</label>
+                </div>
+            </div>
+            <!-- end of category -->
+            <p class="spacer"></p>
+            <!-- rating -->
+            <h4>Rating</h4>
+            <hr>
+            <div class="filter-rating">
+                <div class="rating-in-line">
+                    <p>1<span class="fa fa-star checked"></span></p>
+                    <p>3<span class="fa fa-star checked"></span></p>
+                    <p>5<span class="fa fa-star checked"></span></p>
+                </div>
+                <input type="range" min="1" max="100" value="50">
+            </div>
+
+            <!-- end of rating -->
+            <p class="spacer"></p>
+
+
+
+            <!-- price -->
+            <h4>Price</h4>
+            <hr>
+            <div class="filter-price">
+                <div>
+                    <input type="radio" id="range-1" name="shirt">
+                    <label for="range-1">Under ₹399</label>
+                </div>
+                <div>
+                    <input type="radio" id="range-2" name="shirt">
+                    <label for="range-2">₹399 - ₹1199</label>
+                </div>
+                <div>
+                    <input type="radio" id="range-3" name="shirt">
+                    <label for="range-3">₹1199 - ₹4999</label>
+                </div>
+                <div>
+                    <input type="radio" id="range-4" name="shirt">
+                    <label for="range-4">Above ₹4999</label>
+                </div>
+                <p class="spacer"></p>
+                <h4>Sort by</h4>
+                <hr>
+                <div>
+                    <input type="radio" id="range-1" name="price-low-and-high">
+                    <label for="range-4">Price- Low to High</label>
+                </div>
+                <div>
+                    <input type="radio" id="range-2" name="price-low-and-high">
+                    <label for="range-4">Price- High to Low</label>
+                </div>
+            </div>
+            <!-- end of price -->
+        </div>
+        <!-- end of Sidebar -->
+
+
+        <!-- section-1 -->
+        <div class="section-1">
+            <div class="prod-goggles">
+
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-1.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-2.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-3.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-4.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-5.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-6.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-7.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-8.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-9.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-10.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-11.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vertical-card-with-shadow">
+                    <img class="vertical-card-img" src="/assets/images/shoes/sho-12.jpg" alt="card image" />
+                    <div>
+                        <div class="text-details">
+                            <h3 class="card-title">Men's premium shoess</h3>
+
+                            <h3 class="card-content">
+
+                                <span class="sale-price"><span class="sale-price">Price: ₹1199</span></span> <span>
+                                    <h5 id="mrp">MRP: ₹3999</h5>
+                                </span><span class="review">
+                                    <h6>Review: (17)</h6>
+                                </span>
+                            </h3>
+                        </div>
+                        <div class="card-btn">
+                            <button class="buy-btn" href="#url">Buy</button>
+                            <button class="add-to-wishlist" href="#url"><i class="fas fa-heart"></i> </button>
+                            <button class="add-to-cart" href="#url"><i class="fas fa-shopping-cart"></i> </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- end of section-1 -->
+
+        <!-- sidebar -->
+        <div class="sidebar">
+
+        </div>
+        <!-- end of sidebar -->
+
+        <div class="footer">
+            <p>© 2022 | B-kart</p>
+            <p>Made with <span class="odd-color-text"><i class="fas fa-code"></i></span> by Sumit Kr Singh
+            </p>
+            <ul class="nav-icon-center">
+                <li class-items-text>
+                    <a href="https://www.linkedin.com/in/sumit-kr-singh-a94b56228/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class-items-text>
+                    <a href="https://twitter.com/sumitsi79994403"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class-items-text>
+                    <a href="https://github.com/sumitk-singh"><i class="fa-brands fa-github"></i></i></a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</body>
+
+</html>
