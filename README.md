@@ -1,3 +1,3 @@
 # b-kart-ecommerce-app
 
-- created the cart and wishlist page of products
+- created the product list page

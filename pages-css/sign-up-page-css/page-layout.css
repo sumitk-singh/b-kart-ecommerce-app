@@ -20,12 +20,12 @@
 
 .page-layout-container {
     display: grid;
-    gap: 5rem;
+    gap: 5px;
     grid-template-columns: 1fr 3fr 1fr;
-    column-gap: 5rem;
-    row-gap: 5rem;
+    column-gap: 5px;
+    row-gap: 5px;
     grid-template-areas: "header header header " "section-1 section-1 section-1 " "footer footer footer ";
-    padding: 5rem;
+    padding: 5px;
     padding-left: 1rem;
     padding-right: 1rem;
 }
